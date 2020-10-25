@@ -1,0 +1,13 @@
+# This covers Quandoo Listing Page Visual Testing
+========================================
+@objects
+    nearby-filter xpath //*[@data-qa="filter-button-nearby"]
+
+========================================
+# Validation on desktop resolutions
+@on *
+========================================
+
+= Filter section =
+    nearby-filter:
+       text is "${i18n.nearby.filter}"
