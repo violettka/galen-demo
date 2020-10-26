@@ -3,6 +3,7 @@
 @objects
     nearby-filter   xpath         //*[@data-qa="filter-button-nearby"]
     listing_header  xpath         //div[@data-qa='listing-header']
+    find_button     xpath         //*[@data-qa="button-search-find-header"]
 
 ========================================
 # Validation on desktop resolutions
@@ -13,6 +14,10 @@
     listing_header:
       height 215 to 220px
       width ~ 887px
+
+    find_button:
+      text is "${i18n.find.button}"
+      height ~ 40px
 
 = Filter section =
     nearby-filter:
