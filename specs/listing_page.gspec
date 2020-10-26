@@ -1,12 +1,18 @@
 # This covers Quandoo Listing Page Visual Testing
 ========================================
 @objects
-    nearby-filter xpath //*[@data-qa="filter-button-nearby"]
+    nearby-filter   xpath         //*[@data-qa="filter-button-nearby"]
+    listing_header  xpath         //div[@data-qa='listing-header']
 
 ========================================
 # Validation on desktop resolutions
 @on *
 ========================================
+
+= Header section =
+    listing_header:
+      height 215 to 220px
+      width ~ 887px
 
 = Filter section =
     nearby-filter:
