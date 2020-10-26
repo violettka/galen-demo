@@ -36,6 +36,9 @@ To check whether Galen was successfully installed please run the following comma
 galen -v
 ```
 
+Galen Installation (Windows)
+=====================================
+Please follow the [instructions](http://mindengine.net/post/2014-01-08-configuring-galen-framework-for-windows/#.X5aMOZNKhsM) in order to install Galen for Windows.
 
 Running Tests
 =====================================
