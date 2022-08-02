@@ -15,6 +15,7 @@
     breadcrumbs:
       height ~ 40px
       width 1300 to 1380px
+      css font-size is "12px"
 
     listing_header:
       height 442 to 446px
