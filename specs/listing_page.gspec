@@ -5,6 +5,7 @@
     breadcrumbs          xpath         //div[@data-qa='breadcrumbs']
     language_selector    xpath         //div[@data-qa='lang-selector-toggle']
     log_in               xpath         //div[@data-qa='header-login']
+    nearby-filter        xpath         //*[@data-qa="filter-button-nearby"]
 
 ========================================
 # Validation on desktop resolutions
@@ -26,6 +27,6 @@
       css font-size is "14px"
       css font-family matches ".*Roboto.*, .*Helvetica.*,.*Arial.*,.*sans-serif.*"
 
-
-
-
+= Filter section =
+    nearby-filter:
+       text is "${i18n.nearby.filter}"
