@@ -1,13 +1,14 @@
 @@ table languages
         | locale |
+        | nl     |
+        | tr     |
+        | hk     |
         | en     |
         | de     |
         | fi     |
         | fr     |
-        | hk     |
         | it     |
-        | nl     |
-        | tr     |
+
 
 @@ parameterized using languages
 Listing page test for ${locale} language

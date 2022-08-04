@@ -19,7 +19,7 @@
       css font-size is "12px"
 
     listing_header:
-      height 442 to 446px
+      height 442 to 448px
       width ~ 887px
 
     language_selector:
